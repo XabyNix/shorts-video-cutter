@@ -1,5 +1,6 @@
 node_modules
 dist
 out
+video_utils
 .DS_Store
 *.log*
