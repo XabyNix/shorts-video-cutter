@@ -10,14 +10,16 @@ You can download from [this link](https://drive.google.com/file/d/1qw6BvKzoOz-JI
 
 When start the app you will see screen below.
 
-<img src="https://github.com/XabyNix/shorts-video-cutter/assets/25272328/6e89bc29-c885-4cd2-b1c3-a8249171d8d6" width="30%" style={{aspect-ratio:1/1}}>
+<img src="https://github.com/XabyNix/shorts-video-cutter/assets/25272328/6e89bc29-c885-4cd2-b1c3-a8249171d8d6" width="50%" style={{aspect-ratio:1/1}}>
 
 You just simply drag and drop a file **_(only .mp4 format at this moment)_** from your file explorer inside the dotted area. You will see your video playing
 you can pause, resume and select the point of the video.
 
+<img src="https://github.com/XabyNix/shorts-video-cutter/assets/25272328/90c2a954-4d45-4b19-a423-7399045da1b0" width="50%" style={{aspect-ratio:1/1}}>
+
 ### Selecting the parts to cut
 
-By pressing add button you will create a _green_ area under the video slider that u can resize with the handles at the start and end.
+By pressing **_add_** button you will create a _green_ area under the video slider that u can resize with the handles at the start and end.
 
 ## Cloning the project
 
