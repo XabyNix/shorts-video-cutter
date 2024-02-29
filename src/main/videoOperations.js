@@ -1,9 +1,14 @@
 import ffmpeg from 'fluent-ffmpeg';
 import { writeInsideFile } from './utils';
 import { join, resolve } from 'path';
+import ffmpegPath from 'ffmpeg-static';
+import ffprobe from 'ffprobe-static';
+
 import fs from 'fs';
 
-ffmpeg().setFfmpegPath('D:/ffmpeg/bin/ffmpeg').setFfprobePath('D:/ffmpeg/bin/ffprobe');
+ffmpeg()
+  .setFfmpegPath(ffmpegPath.replace('app.asar', 'app.asar.unpacked'))
+  .setFfprobePath(ffprobe.path.replace('app.asar', 'app.asar.unpacked'));
 
 //Paths of the parts in wich the main video is cutted and then merged together
 const segmentsPath = [];

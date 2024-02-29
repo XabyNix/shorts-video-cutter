@@ -10,6 +10,9 @@ files:
   - '!{.env,.env.*,.npmrc,pnpm-lock.yaml}'
 asarUnpack:
   - resources/**
+  - node_modules/ffmpeg-static/bin/${os}/${arch}/ffmpeg
+  - node_modules/ffmpeg-static/index.js
+  - node_modules/ffmpeg-static/package.json
 win:
   executableName: electron-app
 nsis:
